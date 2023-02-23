@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    margin: 3rem;
+}
+header{
+    text-align: center;
+    color: rgb(211, 36, 36);
+    font-size: 1.3rem;
+}
+.choices{
+    border-radius: 2rem;
+    margin: 2rem;
+    border: 2px solid black;
+    width: 40%;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+img{
+    height: 7rem;
+}
+.container h3{
+    background-color: rgb(13, 14, 14);
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+}
+button{
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+}
+
+.result{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    background: rgb(92, 202, 101);
+    font-size: 1.3rem;
+    border-radius: .5rem;
+}
+
+.changed{
+    height: 10rem;
+}
+.refresh{
+    text-align: center;
+}
+.refresh button{
+    margin: auto;
+    text-align: center;
+    background: rgb(22, 21, 21);
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: .5rem;
+}
